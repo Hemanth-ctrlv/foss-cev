@@ -3,9 +3,10 @@ import './Team.css';
 
 const Team = () => {
     const teamMembers = [
-        { id: 1, name: 'Rishnu lal' }, { id: 2, name: 'Hussain huzefa' }, { id: 3, name: 'Devapriya' }, { id: 4, name: 'Diya' },
-        { id: 5, name: 'Vikram' }, { id: 6, name: 'Neha' }, { id: 7, name: 'Arjun' }, { id: 8, name: 'Kiara' },
-        { id: 9, name: 'Kabir' }, { id: 10, name: 'Isha' }, { id: 11, name: 'Shaurya' }, { id: 12, name: 'Myra' }
+        { id: 1, name: 'Rishnu lal' }, { id: 2, name: 'Hussain huzefa' }, { id: 3, name: 'Devapriya' }, { id: 4, name: 'Rida Waseem' },
+        { id: 5, name: 'Adhi prajeesh' }, { id: 6, name: 'Lakshmi reji suresh' }, { id: 7, name: 'Aswandha RJ' }, { id: 8, name: 'sayanth p' },
+        { id: 9, name: 'Muhammed Aswlah' }, { id: 10, name: 'Ananthanarayanan m' }, { id: 11, name: 'muhammed shabaz' }, { id: 12, name: 'Fathima P' },
+        { id: 13, name: 'Hemanth Sudhan' }, { id: 14, name: 'Srevan s' }, { id: 15, name: 'sadra sunil' }, { id: 16, name: 'Anvar sadth' }
     ];
 
     return (
