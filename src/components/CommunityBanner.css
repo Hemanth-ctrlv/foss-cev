@@ -1,0 +1,54 @@
+.community-banner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0 0 0;
+    background-color: var(--bg-color);
+}
+
+.join-heading {
+    margin-bottom: 3rem;
+}
+
+.join-heading h2 {
+    font-size: 2.5rem;
+    color: var(--text-main);
+}
+
+.scrolling-banner {
+    width: 100%;
+    background-color: var(--dark-banner);
+    color: var(--primary-green);
+    padding: 1rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.scrolling-text span {
+    padding-right: 2rem;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-33.33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .join-heading h2 {
+        font-size: 1.8rem;
+    }
+}
