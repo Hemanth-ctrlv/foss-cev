@@ -12,10 +12,22 @@
     font-size: 2.5rem;
 }
 
-.team-grid {
+.team-stack-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30vh;
+    padding-bottom: 30vh;
+}
+
+.team-row {
+    position: sticky;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    background-color: var(--bg-color);
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    border-radius: 12px;
 }
 
 .team-member {
@@ -43,7 +55,7 @@
 }
 
 @media (max-width: 1024px) {
-    .team-grid {
+    .team-row {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -53,7 +65,7 @@
         padding: 4rem 2rem;
     }
 
-    .team-grid {
+    .team-row {
         grid-template-columns: 1fr;
     }
 }

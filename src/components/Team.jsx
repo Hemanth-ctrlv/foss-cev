@@ -10,17 +10,33 @@ const Team = () => {
         { id: 17, name: 'Roshith krishna' }, { id: 18, name: 'Karthik C' }, { id: 19, name: 'MUhammed Sinan AP' },
     ];
 
+    const rows = [];
+    for (let i = 0; i < teamMembers.length; i += 4) {
+        rows.push(teamMembers.slice(i, i + 4));
+    }
+
     return (
         <section className="team">
             <div className="team-header">
                 <h2>Meet our team</h2>
             </div>
 
-            <div className="team-grid">
-                {teamMembers.map((member) => (
-                    <div key={member.id} className="team-member">
-                        <div className="member-img-placeholder">Image</div>
-                        <p className="member-name">{member.name}</p>
+            <div className="team-stack-container">
+                {rows.map((row, index) => (
+                    <div
+                        key={index}
+                        className="team-row"
+                        style={{
+                            top: `calc(15vh + ${index * 30}px)`,
+                            zIndex: index
+                        }}
+                    >
+                        {row.map((member) => (
+                            <div key={member.id} className="team-member">
+                                <div className="member-img-placeholder">Image</div>
+                                <p className="member-name">{member.name}</p>
+                            </div>
+                        ))}
                     </div>
                 ))}
             </div>
