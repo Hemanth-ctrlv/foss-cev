@@ -33,7 +33,7 @@ const CompletedEvents = () => {
                 <div className="event-card">
                     <div className="event-info">
                         <h3>HackDay2026</h3>
-                        <p>Our annual 24-hour hackathon where students build innovative software solutions.</p>
+                        <p> A hackathon where students build innovative software solutions.</p>
                     </div>
                     <div className="event-footer">
                         <span className="badge">Free</span>
