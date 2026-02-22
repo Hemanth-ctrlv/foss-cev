@@ -3,12 +3,12 @@ import './Gallery.css';
 
 const Gallery = () => {
     const images = [
-        { id: 1, caption: 'HackDay 2023' },
-        { id: 2, caption: 'UI/UX' },
-        { id: 3, caption: 'FOSSMeet NIT Calicut' },
-        { id: 4, caption: 'GIT WORKSHOP' },
-        { id: 5, caption: 'FOSS DAY 2022' },
-        { id: 6, caption: 'Alumni Interaction' },
+        { id: 1, caption: 'HackDay2026' },
+        { id: 2, caption: 'Hallows of Hacking' },
+        { id: 3, caption: 'AI & Her' },
+        { id: 4, caption: 'sit & git' },
+        { id: 5, caption: 'FOSS Corner' },
+        { id: 6, caption: 'Intro to FOSS' },
     ];
 
     return (

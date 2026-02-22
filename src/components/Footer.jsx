@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import photo from '../photos/page2.png'
 
 const Footer = () => {
     return (
@@ -7,14 +8,18 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="foss-united-logo">
                     <p>PART OF</p>
-                    <div className="fu-box">
-                        <img src="D:\kk\onam\Chapppu onam\practice\logo dsgn" alt="Page 2" />
+                    <div className="">
+                        <img src={photo} alt="FOSS" />
                     </div>
                 </div>
             </div>
 
             <div className="footer-middle">
-                <h2 className="connect-us">CONNECT US</h2>
+                <div class="text-wrapper">
+                    <div class="text-outline">CONNECT US</div>
+
+                    <div class="text-solid">CONNECT US</div>
+                </div>
             </div>
 
             <div className="footer-bottom">
