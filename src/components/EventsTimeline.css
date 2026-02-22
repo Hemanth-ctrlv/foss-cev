@@ -37,7 +37,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #e0e0e0;
+    background-color: #333333;
 }
 
 .timeline-node {
@@ -55,8 +55,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;

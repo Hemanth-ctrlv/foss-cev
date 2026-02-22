@@ -7,7 +7,9 @@ const Hero = () => {
             <div className="hero-content">
                 <h1>Empower innovation <br /> with FOSS Club CEV</h1>
                 <p>A community of open-source enthusiasts advancing the spirit of collaborative software development.</p>
-                <button className="join-btn">Join Our Community</button>
+                <button className="join-btn" onClick={() => window.open("https://chat.whatsapp.com/KEUoSJnRl3jJ8TuEV0hl7h?mode=ac_t", "_blank")}>
+                    Join Our Community
+                </button>
             </div>
             <div className="hero-logo">
                 <div className="logo-placeholder">

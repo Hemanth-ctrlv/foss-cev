@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,17 +14,25 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 
 function App() {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+        });
+    }, []);
+
     return (
         <div className="app-container">
-            <Hero />
-            <About />
-            <Activities />
-            <EventsTimeline />
-            <CompletedEvents />
-            <CommunityBanner />
-            <Gallery />
-            <Team />
-            <Footer />
+            <div data-aos="fade-up"><Hero /></div>
+            <div data-aos="fade-up"><About /></div>
+            <div data-aos="fade-up"><Activities /></div>
+            <div data-aos="fade-up"><EventsTimeline /></div>
+            <div data-aos="fade-up"><CompletedEvents /></div>
+            <div data-aos="fade-up"><CommunityBanner /></div>
+            <div data-aos="fade-up"><Gallery /></div>
+            <div data-aos="fade-up"><Team /></div>
+            <div data-aos="fade-up"><Footer /></div>
         </div>
     );
 }

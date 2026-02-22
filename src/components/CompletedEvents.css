@@ -52,7 +52,7 @@
 
 .badge {
     display: inline-block;
-    background-color: #e0e0e0;
+    background-color: #333333;
     color: var(--text-main);
     padding: 0.4rem 1rem;
     border-radius: 20px;

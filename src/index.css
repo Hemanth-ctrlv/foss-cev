@@ -1,16 +1,20 @@
 :root {
     --primary-green: #1FD655;
-    --bg-color: #ffffff;
-    --text-main: #000000;
-    --text-secondary: #333333;
-    --bg-grey: #f8f9fa;
-    --dark-banner: #000000;
+    --bg-color: #000000;
+    --text-main: #ffffff;
+    --text-secondary: #cccccc;
+    --bg-grey: #111111;
+    --dark-banner: #111111;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-middle">
-                <div class="text-wrapper">
+                <div class="text-wrapper" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="text-outline">CONNECT US</div>
 
                     <div class="text-solid">CONNECT US</div>

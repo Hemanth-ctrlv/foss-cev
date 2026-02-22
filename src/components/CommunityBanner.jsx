@@ -5,7 +5,7 @@ const CommunityBanner = () => {
     return (
         <section className="community-banner-section">
             <div className="join-heading">
-                <h2>Join Our Community</h2>
+                <a href="https://chat.whatsapp.com/KEUoSJnRl3jJ8TuEV0hl7h?mode=ac_t" target='_blank'><h2>Join Our Community</h2></a>
             </div>
             <div className="scrolling-banner">
                 <div className="scrolling-text">
